@@ -1,6 +1,6 @@
 # LAB4 Tiles
 
-For this assignment, I limited the scope to the Seattle Area, because I think it is more relevant to me as I live in this area. I choose to only export tiles with Zoom 10 to 14 because as demonstrated in the fourth tiles, the smaller zoom covers a much wider area that I am not focusing on. And although it doesn't take much storage space, it is not beneficial to our understanding of the area. 
+For this assignment, I limited the scope to the Seattle Area, because I think it is more relevant to me as I live in this area. I choose to only export tiles with Zoom 10 to 14 because as demonstrated in the fourth tiles, the smaller zoom covers a much wider area that I am not focusing on. Although it doesn't take much storage space, it is not beneficial to our understanding of the area and looks rather messy. 
 
 ## [Maps](https://kristinahsu.github.io/lab4/)
 
