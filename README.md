@@ -5,7 +5,7 @@ For this assignment, I limited the scope to the Seattle Area, because I think it
 ## [Maps](https://kristinahsu.github.io/lab4/)
 
 ### Tile 1: [Basemap](https://api.mapbox.com/styles/v1/kristinahsu/cl2v50rho000t15n5qbtynvum.html?title=view&access_token=pk.eyJ1Ijoia3Jpc3RpbmFoc3UiLCJhIjoiY2wydjQycGVoMDhjejNqcGUya2NsYXZ2ZSJ9.RQhWFhzMfnuPxcS-Avqtsw&zoomwheel=true&fresh=true#11.53/47.6676/-122.3325)
-For the base map, I choose to color some features including parks hospitals, and schools. Also, I changed the font to Open Sans. This base map that I created is similar to the street map design and is personally my favorite as it is simple, yet has some color-coding that differentiates some geographic/spatial features. 
+For the base map, I choose to color some features including parks hospitals, and schools. Also, I changed the font to Open Sans. This base map that I created is similar to the street map design and is personally my favorite as it is simple, yet has some color-coding that differentiates some geographic/spatial features. In addtion, icons are also inclluded for places as UW and Woodland Park zoo. 
 
 ![Basemap](img/Set1.png)
 
