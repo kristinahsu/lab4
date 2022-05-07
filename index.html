@@ -4,6 +4,7 @@
 <head>
     <title>Map Design</title>
     <meta charset="utf-8" />
+    <title>Tile Maps</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://api.mapbox.com/mapbox-gl-js/v2.8.1/mapbox-gl.css" rel="stylesheet">
 
@@ -65,6 +66,38 @@
         #menu a.active:hover {
             background: #3074a4;
         }
+
+        h2 {
+            margin: 10px;
+            font-size: 18px;
+        }
+
+        h3 {
+            margin: 10px;
+            font-size: 12px;
+        }
+
+        .map-overlay {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            background: rgba(255, 255, 255, 0.8);
+            border-style: solid;
+            border-width: 1px;
+            border-color: rgba(0, 0, 0, 0.2);
+            margin-left: 20px;
+            font-family: Arial, sans-serif;
+            overflow: auto;
+            border-radius: 3px;
+        }
+
+        #features {
+            top: 0;
+            height: 200px;
+            margin-top: 20px;
+            width: 300px;
+        }
+
     </style>
     <script src="https://api.mapbox.com/mapbox-gl-js/v2.8.1/mapbox-gl.js"></script>
 </head>
@@ -72,13 +105,20 @@
 <body>
     <nav id="menu"></nav>
     <div id='map'></div>
+    <div class='map-overlay' id='features'>
+        <h2>Tile Maps</h2>
+        <p>  - Click a tile format! </p>
+        <p>  - Zoom in to examine the data!</p>
+        <p> Data from the <a href="https://data.cdc.gov/Vaccinations/Vaccines-gov-COVID-19-vaccinating-provider-locatio/5jp2-pgaw/data">
+            CDC</a></p>
+    </div>
     <script type="text/javascript">
         mapboxgl.accessToken =
             'pk.eyJ1IjoiamFrb2J6aGFvIiwiYSI6ImNpcms2YWsyMzAwMmtmbG5icTFxZ3ZkdncifQ.P9MBej1xacybKcDN_jehvw';
         let map = new mapboxgl.Map({
             container: 'map', // container ID
             style: 'mapbox://styles/mapbox/light-v10',
-            zoom: 10, // starting zoom
+            zoom: 11, // starting zoom
             center: [-122.2559435, 47.6002614] // starting center
         });
 
